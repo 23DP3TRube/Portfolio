@@ -1,0 +1,128 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  nav.navigation {
+    background: #444;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  nav.navigation button {
+    background-color: #444;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 1em;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  nav.navigation button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav.navigation button:hover {
+    background-color: #555;
+  }
+  
+  main {
+    display: flex;
+  }
+  
+  .content {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+    flex: 1;
+  }
+  
+  .main-content {
+    flex: 2;
+    text-align: center;
+  }
+  
+  .main-content h2 {
+    margin-top: 20px;
+    font-size: 2em;
+    color: #444;
+  }
+  
+  .main-content p {
+    margin: 20px 0;
+  }
+  
+  .main-content ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+  }
+  
+  .main-content ul li {
+    background: #eee;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1em;
+  }
+  
+  .main-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .main-images img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  iframe {
+    display: block;
+    margin: 20px auto;
+    border: 0;
+    border-radius: 10px;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    text-align: left;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
